@@ -11,10 +11,11 @@
     "claudia": "^3.3.1"
   },
   "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "dotenv": "^5.0.0",
     "google-auth-library": "^1.2.1",
     "googleapis": "25.0.0",
     "got": "^8.1.0",
-    "alexa-sdk": "^1.0.25",
-    "dotenv": "^5.0.0"
+    "ssml-builder": "^0.4.3"
   }
 }
