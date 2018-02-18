@@ -1,0 +1,20 @@
+{
+  "name": "based-zeus-skill",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "claudia create --region us-east-1 --handler index.handler --profile claudia",
+    "upload": "claudia update --profile claudia"
+  },
+  "devDependencies": {
+    "claudia": "^3.3.1"
+  },
+  "dependencies": {
+    "google-auth-library": "^1.2.1",
+    "googleapis": "25.0.0",
+    "got": "^8.1.0",
+    "alexa-sdk": "^1.0.25",
+    "dotenv": "^5.0.0"
+  }
+}
